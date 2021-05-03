@@ -9,7 +9,7 @@ python3 bgbingfofa.py -e/--email email -k/--key key
 
 -k/--key 后面对应的是fofakey
 
-![image](https://user-images.githubusercontent.com/51054495/116848595-83322f80-ac1f-11eb-8f98-db7a763f7f1b.png)
+![image](https://user-images.githubusercontent.com/51054495/116849946-4e73a780-ac22-11eb-8cd0-eefe1436248b.png)
 
 ![image](https://user-images.githubusercontent.com/51054495/116848530-64339d80-ac1f-11eb-8405-5b41db46f588.png)
 
