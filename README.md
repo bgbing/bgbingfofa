@@ -1,4 +1,4 @@
-# bgbingfofaapi
+# bgbingfofa
 fofa采集工具
 
 如何使用？
