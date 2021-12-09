@@ -3,11 +3,13 @@ fofa采集工具
 
 如何使用？
 
-python3 bgbingfofa.py -e/--email email -k/--key key
+python3 bgbingfofa.py -e/--email email -k/--key key -s/--size size
 
 -e/--email 后面对应的是fofa邮箱  
 
 -k/--key 后面对应的是fofakey
+
+-s/--size 后面对应查询数量100/1000/10000
 
 ![image](https://user-images.githubusercontent.com/51054495/116849946-4e73a780-ac22-11eb-8cd0-eefe1436248b.png)
 
