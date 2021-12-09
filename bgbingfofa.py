@@ -20,7 +20,7 @@ def banner():
     print("\n")
     print('\033[1;36m   fofa采集工具使用方法\033[0m')
     print("\n")
-    print('\033[1;36m           python3 bgbingfofa.py -e/--email email -k/--key key -s/--size size\033[0m')
+    print('\033[1;36m           python3 bgbingfofa.py -e/--email email -k/--key key -s/--size 100/1000/10000\033[0m')
     print("\n")
     print('\033[1;36m           python3 bgbingfofa.py -h/--help\033[0m')
     print("\n")
@@ -57,6 +57,7 @@ if 'errmsg' not in response.text:
                 s=i[0]
                 f = open('result.txt','a')
                 f.write(s+"\n")
+            f.close()
         else:
             print("\033[1;31mfofa语句不正确\033[0m")
 else:
