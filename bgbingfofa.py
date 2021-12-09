@@ -52,7 +52,6 @@ if 'errmsg' not in response.text:
             r1 = json.loads(response.text)
             for i in r1['results']:
                 s=i[0]
-                print(s)
                 f = open('result.txt','a')
                 f.write(s+"\n")
         else:
