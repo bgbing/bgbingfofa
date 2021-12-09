@@ -48,6 +48,8 @@ if 'errmsg' not in response.text:
         url="https://fofa.so/api/v1/search/all?email="+email+"&key="+key+"&qbase64="+sentence+"&size="+size
         response=requests.get(url,headers=header)
         if 'errmsg' not in response.text:
+            if os.path.exists("result.txt"):
+                os.remove("result.txt")
             print("\033[1;36m已保存到\033[0m\033[1;32mresult.txt\033[0m")
             r1 = json.loads(response.text)
             for i in r1['results']:
